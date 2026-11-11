@@ -1,0 +1,11 @@
+# 你本地的配置（含账号、口令，绝对不要提交）
+config.json
+# 聊天记录、图片与自动备份
+data/
+data-backup/
+# 依赖
+node_modules/
+# 日志与系统垃圾
+*.log
+.DS_Store
+Thumbs.db
