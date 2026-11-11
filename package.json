@@ -1,0 +1,35 @@
+{
+  "name": "jingwu",
+  "version": "1.0.0",
+  "description": "A self-hosted OneBot 11 chat server that replaces the QQ layer for DSH (DeepSeek Harness)",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dry": "node server.mjs --dry"
+  },
+  "keywords": [
+    "onebot",
+    "onebot11",
+    "dsh",
+    "deepseek-harness",
+    "chat",
+    "self-hosted"
+  ],
+  "author": "The Jingwu Authors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HanyuReo/jingwu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HanyuReo/jingwu/issues"
+  },
+  "homepage": "https://github.com/HanyuReo/jingwu#readme",
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "MIT"
+}
